@@ -22,11 +22,10 @@ This lab walks you through the steps to use Micronaut, Micronaut Data and Oracle
 - Lab 1: Getting to know Micronaut
 - Lab 2: Understanding Dependency Injection
 - Lab 3: Writing Web Controllers
-- Lab 4: Setting up a Database Schema
-- Lab 5: Writing JPA Data Access Repositories
-- Lab 6: Exposing OpenAPI Documentation
-- Lab 7: Building a Native Image
-- Lab 8: Going to Production
+- Lab 4: Setting up a Database Schema & JPA
+- Lab 5: Exposing OpenAPI Documentation
+- Lab 6: Building a Native Image
+- Lab 7: Going to Production
 
 ### Prerequisites
 - Understanding of the Java programming language
