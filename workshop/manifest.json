@@ -8,14 +8,14 @@
             "filename": "../introduction/introduction.md"
         },
         {
-            "title": "Setup Virtual Lab",
-            "description": "What you need before we begin",
-            "filename": "../introduction/prerequisites.md"
-        },
-        {
             "title": "Signup for Oracle Cloud",
             "description": "In this Lab you with signup for an Oracle Cloud account.",
             "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
+        },
+        {
+            "title": "Setup Virtual Lab",
+            "description": "What you need before we begin",
+            "filename": "../introduction/prerequisites.md"
         },
         {
             "title": "Lab 1: Getting to Know Micronaut",
