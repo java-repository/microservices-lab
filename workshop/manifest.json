@@ -32,23 +32,19 @@
             "filename": "../lab_controllers/lab_controllers.md"
         },
         {
-            "title": "Lab 4: Setting up a Database Schema",
-            "filename": "../lab_schemamigration/lab_schemamigration.md"
+            "title": "Lab 4: Setting up a Database",
+            "filename": "../lab_database/database.md"
         },
         {
-            "title": "Lab 5: Writing JPA Data Access Repositories",
-            "filename": "../lab_data_jpa/lab_data_jpa.md"
-        },
-        {
-            "title": "Lab 6: Exposing OpenAPI Documentation",
+            "title": "Lab 5: Exposing OpenAPI Documentation",
             "filename": "../lab_openapi/lab_openapi.md"
         },
         {
-            "title": "Lab 7: Building a Native Image",
+            "title": "Lab 6: Building a Native Image",
             "filename": "../lab_native_image/lab_native_image.md"
         },
         {
-            "title": "Lab 8: Going to Production",
+            "title": "Lab 7: Going to Production",
             "filename": "../lab_deployment/lab_deployment.md"
         },
         {
