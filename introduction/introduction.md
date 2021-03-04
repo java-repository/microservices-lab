@@ -23,8 +23,7 @@ This lab walks you through the steps to use Micronaut, Micronaut Data and Oracle
 - Lab 2: Writing Web Controllers
 - Lab 3: Setting up a Database Schema & JPA
 - Lab 4: Exposing OpenAPI Documentation
-- Lab 5: Building a Native Image
-- Lab 6: Going to Production
+- Lab 5: Going to Production
 
 ### Prerequisites
 - Understanding of the Java programming language

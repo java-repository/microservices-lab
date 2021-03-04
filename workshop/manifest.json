@@ -35,11 +35,7 @@
             "filename": "../lab_openapi/lab_openapi.md"
         },
         {
-            "title": "Lab 5: Building a Native Image",
-            "filename": "../lab_native_image/lab_native_image.md"
-        },
-        {
-            "title": "Lab 6: Going to Production",
+            "title": "Lab 5: Going to Production",
             "filename": "../lab_deployment/lab_deployment.md"
         },
         {
