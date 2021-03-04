@@ -1,0 +1,56 @@
+{
+  "workshoptitle": "Building Cloud Applications with Micronaut, GraalVM and OCI",
+    "tutorials": [
+   
+        {
+            "title": "Introduction",
+            "description": "Introduction to building Micronaut applications with Autonomous database.",
+            "filename": "../introduction/introduction.md"
+        },
+        {
+            "title": "Setup Virtual Lab",
+            "description": "What you need before we begin",
+            "filename": "../introduction/prerequisites.md"
+        },
+        {
+            "title": "Signup for Oracle Cloud",
+            "description": "In this Lab you with signup for an Oracle Cloud account.",
+            "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/cloud-login/pre-register-free-tier-account.md"
+        },
+        {
+            "title": "Lab 1: Getting to Know Micronaut",
+            "description": "Getting to Know Micronaut",
+            "filename": "../lab_gettingstarted/lab_gettingstarted.md"
+        },
+        {
+            "title": "Lab 2: Understanding Dependency Injection",
+            "description": "Understanding Dependency Injection",
+            "filename": "../lab_dependency_injection/lab_dependency_injection.md"
+        },
+        {
+            "title": "Lab 3: Writing Web Controllers",
+            "filename": "../lab_controllers/lab_controllers.md"
+        },
+        {
+            "title": "Lab 4: Setting up a Database Schema",
+            "filename": "../lab_schemamigration/lab_schemamigration.md"
+        },
+        {
+            "title": "Lab 5: Writing JPA Data Access Repositories",
+            "filename": "../lab_data_jpa/lab_data_jpa.md"
+        },
+        {
+            "title": "Lab 6: Exposing OpenAPI Documentation",
+            "filename": "../lab_openapi/lab_openapi.md"
+        },
+        {
+            "title": "Lab 7: Building a Native Image",
+            "filename": "../lab_native_image/lab_native_image.md"
+        },
+        {
+            "title": "Lab 8: Going to Production",
+            "filename": "../lab_deployment/lab_deployment.md"
+        }
+
+    ]
+}

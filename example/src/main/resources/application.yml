@@ -1,0 +1,57 @@
+micronaut:
+  application:
+    name: pets
+  executors:
+    io:
+      type: fixed
+      n-threads: 75
+  server:
+    thread-selection: IO
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+  metrics:
+    enabled: true
+    export:
+      prometheus:
+        enabled: true
+datasources:
+  default:
+    url: "jdbc:oracle:thin:@${DB_NAME}"
+    driverClassName: oracle.jdbc.OracleDriver
+    databaseName: "${DB_SCHEMA}"
+    username: "${DB_USER}"
+    password: "${DB_PASSWORD}"
+    dialect: ORACLE
+    data-source-properties:
+      oracle:
+        jdbc:
+          fanEnabled: false
+jpa:
+  default:
+    entity-scan:
+      enabled: true
+owners:
+  fred:
+    name: Fred
+    age: 35
+    pets:
+      - Dino
+      - Baby Puss
+  barney:
+    name: Barney
+    age: 30
+    pets:
+      - Hoppy
+flyway:
+  datasources:
+    default:
+      enabled: true
+endpoints:
+  all:
+    enabled: true
+    sensitive: false
+  health:
+    details-visible: anonymous
