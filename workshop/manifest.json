@@ -1,7 +1,7 @@
 {
   "workshoptitle": "Building Cloud Applications with Micronaut, GraalVM and OCI",
     "tutorials": [
-   
+
         {
             "title": "Introduction",
             "description": "Introduction to building Micronaut applications with Autonomous database.",
@@ -33,7 +33,7 @@
         },
         {
             "title": "Lab 4: Setting up a Database Schema & JPA",
-            "filename": "../lab_database/database.md"
+            "filename": "../lab_database/lab_database.md"
         },
         {
             "title": "Lab 5: Exposing OpenAPI Documentation",
