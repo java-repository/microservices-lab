@@ -36,7 +36,7 @@
         },
         {
             "title": "Lab 5: Going to Production",
-            "filename": "../lab_deployment/lab_deployment_native_image.md"
+            "filename": "../lab_deployment_native_image/lab_deployment_native_image.md"
         },
         {
             "title": "Cleaning Up Cloud Resources",
