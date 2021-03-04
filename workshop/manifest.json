@@ -32,7 +32,7 @@
             "filename": "../lab_controllers/lab_controllers.md"
         },
         {
-            "title": "Lab 4: Setting up a Database",
+            "title": "Lab 4: Setting up a Database Schema & JPA",
             "filename": "../lab_database/database.md"
         },
         {
