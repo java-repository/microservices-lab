@@ -20,12 +20,11 @@ Micronaut also includes a persistence framework called Micronaut Data that preco
 This lab walks you through the steps to use Micronaut, Micronaut Data and Oracle Cloud to connected to an Oracle Database.
 
 - Lab 1: Getting to know Micronaut
-- Lab 2: Understanding Dependency Injection
-- Lab 3: Writing Web Controllers
-- Lab 4: Setting up a Database Schema & JPA
-- Lab 5: Exposing OpenAPI Documentation
-- Lab 6: Building a Native Image
-- Lab 7: Going to Production
+- Lab 2: Writing Web Controllers
+- Lab 3: Setting up a Database Schema & JPA
+- Lab 4: Exposing OpenAPI Documentation
+- Lab 5: Building a Native Image
+- Lab 6: Going to Production
 
 ### Prerequisites
 - Understanding of the Java programming language
@@ -40,4 +39,3 @@ This lab walks you through the steps to use Micronaut, Micronaut Data and Oracle
 - **Instructors** - Ali Parvini, Amitpal Dhillon, Munish Chouhan
 - **Owners** - Graeme Rocher, Architect, Oracle Labs - Databases and Optimization
 - **Contributors** - Graeme Rocher, Todd Sharp, Eric Sedlar
-

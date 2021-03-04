@@ -23,28 +23,23 @@
             "filename": "../lab_gettingstarted/lab_gettingstarted.md"
         },
         {
-            "title": "Lab 2: Understanding Dependency Injection",
-            "description": "Understanding Dependency Injection",
-            "filename": "../lab_dependency_injection/lab_dependency_injection.md"
+            "title": "Lab 2: Writing Web Controllers",
+            "filename": "../lab_web_controllers/lab_web_controllers.md"
         },
         {
-            "title": "Lab 3: Writing Web Controllers",
-            "filename": "../lab_controllers/lab_controllers.md"
-        },
-        {
-            "title": "Lab 4: Setting up a Database Schema & JPA",
+            "title": "Lab 3: Setting up a Database Schema & JPA",
             "filename": "../lab_database/lab_database.md"
         },
         {
-            "title": "Lab 5: Exposing OpenAPI Documentation",
+            "title": "Lab 4: Exposing OpenAPI Documentation",
             "filename": "../lab_openapi/lab_openapi.md"
         },
         {
-            "title": "Lab 6: Building a Native Image",
+            "title": "Lab 5: Building a Native Image",
             "filename": "../lab_native_image/lab_native_image.md"
         },
         {
-            "title": "Lab 7: Going to Production",
+            "title": "Lab 6: Going to Production",
             "filename": "../lab_deployment/lab_deployment.md"
         },
         {
