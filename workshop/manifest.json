@@ -50,6 +50,10 @@
         {
             "title": "Lab 8: Going to Production",
             "filename": "../lab_deployment/lab_deployment.md"
+        },
+        {
+            "title": "Lab 9: Cleaning Up Cloud Resources",
+            "filename": "../destroy/destroy.md"
         }
 
     ]
