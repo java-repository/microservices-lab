@@ -3,7 +3,7 @@
 ## Introduction
 In this lab you will learn how to write a REST API that produces JSON output.
 
-Estimated Lab Time: 20 minutes
+Estimated Lab Time: 25 minutes
 
 ### Objectives
 

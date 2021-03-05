@@ -3,7 +3,7 @@
 ## Introduction
 In this lab you will learn how your Micronaut application can manage the evolution of your database schema with Flyway and define Data access repository interfaces that simplify your database access code using JPA.
 
-Estimated Lab Time: 20 minutes
+Estimated Lab Time: 25 minutes
 
 ### Objectives
 
@@ -680,7 +680,7 @@ To test this out create a new test in the file `src/test/java/example/micronaut/
         }
     }
     </copy>
-    
+
 The key part of this code is the `OwnerClient` interface which is defined as an inner class and then injected as a bean. By specifying a URI of `/owners` to the declarative client it is assumed you will be making requests to the current server.
 
 > To debug the HTTP requests and responses try adding a logger definition like `<logger name="io.micronaut.http.client" level="trace" />` in `logback.xml`.

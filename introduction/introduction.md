@@ -8,7 +8,7 @@ The workshop features several labs that walk you through the steps to get going 
 
 The source code with completed example code is [available on Github](https://github.com/java-repository/microservices-workshop).
 
-Estimated Workshop Time: 120 minutes
+Estimated Workshop Time: 90 minutes
 
 ### About Micronaut
 
@@ -20,10 +20,10 @@ Micronaut also includes a persistence framework called Micronaut Data that preco
 This lab walks you through the steps to use Micronaut, Micronaut Data and Oracle Cloud to connected to an Oracle Database.
 
 - Lab 1: Getting to know Micronaut (10 minutes)
-- Lab 2: Writing Web Controllers (20 minutes)
-- Lab 3: Setting up a Database Schema & JPA (20 minutes)
+- Lab 2: Writing Web Controllers (25 minutes)
+- Lab 3: Setting up a Database Schema & JPA (25 minutes)
 - Lab 4: Exposing OpenAPI Documentation (10 minutes)
-- Lab 5: Going to Production (15 minutes)
+- Lab 5: Building Native Image & Deploying to the Cloud (20 minutes)
 
 ### Prerequisites
 - Understanding of the Java programming language

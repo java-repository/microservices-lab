@@ -22,6 +22,7 @@ A common requirement is the need to document a REST API for consumers. [OpenAPI]
 
 Micronaut features the ability to [generate your API documentation](https://micronaut-projects.github.io/micronaut-openapi/latest/guide/index.html) directly from your source code and javadoc comments, greatly reducing the need to duplicate effort when documenting your API.
 
+tabs: 
 To get started modify your Gradle build by adding the following dependencies to your `build.gradle` file within the `dependencies` block:
 
     <copy>
