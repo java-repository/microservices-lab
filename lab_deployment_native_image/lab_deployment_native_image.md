@@ -1,4 +1,4 @@
-# Building Native Images with Micronaut with GraalVM and deploying to the Cloud
+# Building Native Images with Micronaut & GraalVM and deploying to the Cloud
 
 ## Introduction
 In this lab you will learn how to to turn your application into a native executable with GraalVM Native Image and deploy your Micronaut application to a VM, a Docker Container Registry, and Kubernetes.

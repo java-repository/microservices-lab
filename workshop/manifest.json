@@ -35,7 +35,7 @@
             "filename": "../lab_openapi/lab_openapi.md"
         },
         {
-            "title": "Lab 5: Going to Production",
+            "title": "Lab 5: Building Native Image & Deploying to the Cloud",
             "filename": "../lab_deployment_native_image/lab_deployment_native_image.md"
         },
         {
