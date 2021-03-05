@@ -19,11 +19,11 @@ Micronaut also includes a persistence framework called Micronaut Data that preco
 ### Objectives
 This lab walks you through the steps to use Micronaut, Micronaut Data and Oracle Cloud to connected to an Oracle Database.
 
-- Lab 1: Getting to know Micronaut
-- Lab 2: Writing Web Controllers
-- Lab 3: Setting up a Database Schema & JPA
-- Lab 4: Exposing OpenAPI Documentation
-- Lab 5: Going to Production
+- Lab 1: Getting to know Micronaut (10 minutes)
+- Lab 2: Writing Web Controllers (20 minutes)
+- Lab 3: Setting up a Database Schema & JPA (20 minutes)
+- Lab 4: Exposing OpenAPI Documentation (10 minutes)
+- Lab 5: Going to Production (15 minutes)
 
 ### Prerequisites
 - Understanding of the Java programming language
