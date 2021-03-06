@@ -1,0 +1,114 @@
+openapi: 3.0.1
+info:
+  title: pets-api
+  version: "0.1"
+paths:
+  /owners:
+    get:
+      operationId: getOwners
+      parameters: []
+      responses:
+        "200":
+          description: getOwners 200 response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Owner'
+    post:
+      operationId: add
+      parameters: []
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Owner'
+        required: true
+      responses:
+        "200":
+          description: add 200 response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Owner'
+  /owners/{owner}/pets:
+    get:
+      operationId: getPets
+      parameters:
+      - name: owner
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: health
+        in: query
+        required: false
+        schema:
+          $ref: '#/components/schemas/Pet.PetHealth'
+      responses:
+        "200":
+          description: getPets 200 response
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Pet'
+  /owners/{owner}/pets/{pet}:
+    get:
+      operationId: getPet
+      parameters:
+      - name: owner
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: pet
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        "200":
+          description: getPet 200 response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Pet'
+components:
+  schemas:
+    Owner:
+      required:
+      - name
+      type: object
+      properties:
+        name:
+          minLength: 1
+          type: string
+        age:
+          minimum: 18
+          type: integer
+          format: int32
+        id:
+          type: integer
+          format: int64
+          nullable: true
+    Pet:
+      type: object
+      properties:
+        name:
+          type: string
+        owner:
+          $ref: '#/components/schemas/Owner'
+        id:
+          type: integer
+          format: int64
+          nullable: true
+        health:
+          $ref: '#/components/schemas/Pet.PetHealth'
+    Pet.PetHealth:
+      type: string
+      enum:
+      - VACCINATED
+      - REQUIRES_VACCINATION
