@@ -1,0 +1,4 @@
+example/build/
+example/.gradle/
+example/.idea/
+example/target/
