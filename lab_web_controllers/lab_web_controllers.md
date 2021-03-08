@@ -85,38 +85,6 @@ Here you can see the test uses Micronaut's `ApplicationContext`, which is a cont
 
 The `@Singleton` scope ensures that only one instance is created.
 
-## Add Lifecycle Methods
-
-Life cycle methods can be added via `javax.annotation.PostConstruct` and `javax.annotation.PreDestroy` annotations. Try adding the following methods to `OwnerService`:
-
-    <copy>
-    @PostConstruct
-    void created() {
-        System.out.println("OwnerService created");
-    }
-
-    @PreDestroy
-    void destroyed() {
-        System.out.println("OwnerService destroyed");
-    }
-    </copy>
-
-You'll also need these imports:
-
-    <copy>
-    import javax.annotation.PostConstruct;
-    import javax.annotation.PreDestroy;
-    </copy>
-
-Now run `OwnerServiceTest` again and you will see the following output:
-
-```
-OwnerService created
-OwnerService destroyed
-```
-
-This is because the `ApplicationContext` is created and destroyed in the `try-with-resources` block, so when the bean is created it triggers the `created` method and when the context is destroyed it triggers the `destroyed` method.
-
 ## Injecting Beans
 
 To demonstrate dependency injection better, let's tackle a more interesting case. First define a POJO class to represent the owners of a pet in a hypothetical pet clinic in a file called `src/main/java/example/micronaut/Owner.java`:
