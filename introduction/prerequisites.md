@@ -9,7 +9,7 @@ This avoids the need for attendees to get setup locally with the necessary tooli
 * GraalVM 21.0.0 for JDK 11
 * The Oracle Cloud CLI
 * Docker
-* JetBrains Projector IDE 
+* JetBrains Projector IDE
 
 ## Setup Virtual Environment
 Prior to beginning, the lab you need to create the virtual environment to run the lab. The virtual environment requires that you have completed the sign-up for Oracle Cloud as described in the [Signup for Oracle Cloud](index.html?lab=signup-for-oracle-cloud) section.
@@ -72,7 +72,7 @@ The IDE is based on JetBrains Projector with IntelliJ Community Edition and you 
 
 5. Either agree or not to send usage statistics
 
-	![Usage Stats](images/projector-datausage.png)	
+	![Usage Stats](images/projector-datausage.png)
 
 6. Choose either Gradle or Maven when prompted depending on your build tool preference.
 
@@ -81,28 +81,3 @@ The IDE is based on JetBrains Projector with IntelliJ Community Edition and you 
 The example project you will use during the course of this lab will automatically open up and you should see the following project:
 
 ![Micronaut Project](images/micronaut-project.png)
-
-## Alternative Setup Method
-
-If you have trouble getting setup on Oracle Cloud with the Virtual lab you can alternatively complete the workshop using local development tools.
-
-You will need GraalVM 21.0.0 for Java 8 installed which you can install via SDKMan with:
-
-	<copy>
-	sdk install java 21.0.0.2.r8
-	</copy>
-
-Or alternatively you can [download and install it manually](https://www.graalvm.org/downloads/).
-
-
-Once you have GraalVM simply create a new Micronaut application via [Micronaut Launch](https://micronaut.io/launch) called "example" or via `curl`:
-
-	<copy>
-	curl https://launch.micronaut.io/example.zip -o example.zip && unzip example.zip -d example && cd example
-	</copy>
-
-The above command will create the example application that can be used as a starting point to work through the workshop locally.	
-
-> **TIP**: If you don't have `curl` you can also create an application with [Micronaut Launch](https://micronaut.io/launch)
-
-You can then open the created project in an IDE or text editor.
