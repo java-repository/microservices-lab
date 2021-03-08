@@ -208,14 +208,6 @@ You'll also need these imports:
 
 Notice that for each entry under the `owner` configuration namespace you get a new instance of `OwnerConfiguration` thanks to how `@EachProperty` works. Also notice how you can pass configuration to the `run` method of the `ApplicationContext` in order to configure your application.
 
-You can additionally lookup an individual named instance used the `@javax.inject.Named(..)` qualifier, for example:
-
-    <copy>
-    public OwnerService(@Named("fred") OwnerConfiguration> fredConfiguration) {
-        this.ownerConfiguration = fredConfiguration;
-    }
-    </copy>
-
 ## Define a Controller
 
 Micronaut's built-in HTTP server is based on the Netty I/O toolkit in combination with an annotation-based programming model for defining routes with support for emitting and consuming JSON via the Jackson library.
