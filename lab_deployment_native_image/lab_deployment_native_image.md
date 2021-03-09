@@ -170,7 +170,7 @@ Once the application is up and running, you can access it via `http://[YOUR IP]:
 
 ## Deploying the Native Image to a VM
 
-The Native Image you built in the previous Lab can also easily be executed directly on a VM.
+The Native Image you built can also easily be executed directly on a VM.
 
 ### Gradle
 

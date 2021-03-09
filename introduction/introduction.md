@@ -6,7 +6,7 @@ This workshop is for Java Developers looking to start building applications with
 
 The workshop features several labs that walk you through the steps to get going with Micronaut and Oracle Cloud.
 
-The source code with completed example code is [available on Github](https://github.com/java-repository/microservices-workshop).
+The source code with completed example code is [available on Github](https://github.com/java-repository/microservices-workshop-src).
 
 Estimated Workshop Time: 90 minutes
 
